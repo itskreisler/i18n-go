@@ -1,0 +1,15 @@
+[hello]
+other = "Hello!"
+
+[welcome]
+other = "Welcome to the application!"
+
+[welcome_user]
+other = "Welcome, {{.Name}}!"
+
+[items]
+one = "You have {{.Count}} item."
+other = "You have {{.Count}} items."
+
+[settings.title]
+other = "Settings"

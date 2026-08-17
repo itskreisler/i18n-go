@@ -1,0 +1,15 @@
+[hello]
+other = "¡Hola!"
+
+[welcome]
+other = "¡Bienvenido a la aplicación!"
+
+[welcome_user]
+other = "¡Bienvenido, {{.Name}}!"
+
+[items]
+one = "Tienes {{.Count}} elemento."
+other = "Tienes {{.Count}} elementos."
+
+[settings.title]
+other = "Configuración"
