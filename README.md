@@ -1,5 +1,7 @@
 # itskreisler/i18n-go
 
+**English** | [Español](README-es.md)
+
 Type-safe i18n for Go, powered internally by `github.com/nicksnyder/go-i18n/v2`.
 
 Locale files are named `active.<lang>.toml` (e.g. `active.en.toml`, `active.es.toml`)

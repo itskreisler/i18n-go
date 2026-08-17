@@ -1,5 +1,7 @@
 # itskreisler/i18n-go
 
+[English](README.md) | **Español**
+
 i18n con seguridad de tipos para Go, impulsado internamente por
 `github.com/nicksnyder/go-i18n/v2`.
 
