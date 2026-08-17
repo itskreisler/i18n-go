@@ -1,7 +1,7 @@
 package locales
 
 import (
-    "embed"
+	"embed"
 )
 
 //go:embed active.*.toml
