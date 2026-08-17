@@ -3,8 +3,8 @@ package main
 import (
     "fmt"
 
-    ki18n "github.com/kreisler/i18n"
-    "github.com/kreisler/i18n/example/locales"
+    ki18n "github.com/itskreisler/i18n-go"
+    "github.com/itskreisler/i18n-go/example/locales"
 )
 
 func main() {

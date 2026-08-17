@@ -1,12 +1,12 @@
 package main
 
 import (
-    "flag"
-    "fmt"
-    "os"
+	"flag"
+	"fmt"
+	"os"
 
-    "github.com/kreisler/i18n/generator"
-    "github.com/kreisler/i18n/validator"
+	"github.com/itskreisler/i18n-go/generator"
+	"github.com/itskreisler/i18n-go/validator"
 )
 
 func main() {

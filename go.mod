@@ -1,4 +1,4 @@
-module github.com/kreisler/i18n-go
+module github.com/itskreisler/i18n-go
 
 go 1.24.0
 

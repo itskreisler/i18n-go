@@ -113,11 +113,16 @@ func flatten(prefix string, value map[string]any, out map[string]bool) {
 }
 
 func isMessageTable(table map[string]any) bool {
+    // A message table's keys are only plural categories (plus an optional
+    // description). Requiring ALL keys to be categories - not just one -
+    // stops a namespace like [ram.zero] from being mistaken for a message
+    // just because one of its sub-keys is named "zero".
     for key := range table {
         switch key {
         case "description", "zero", "one", "two", "few", "many", "other":
-            return true
+        default:
+            return false
         }
     }
-    return false
+    return len(table) > 0
 }
