@@ -230,3 +230,7 @@ generación de código alrededor de él.
 
 `go generate` es explícito en Go; no se ejecuta automáticamente con
 `go build` ni `go test`.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT; consulta el archivo [LICENSE](LICENSE) para más detalles.
