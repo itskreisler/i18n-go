@@ -224,3 +224,7 @@ to go-i18n. This package mainly provides a typed API and code generation around 
 
 `go generate` is explicit in Go; it is not run automatically by `go build` or
 `go test`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
